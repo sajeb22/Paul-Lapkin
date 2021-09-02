@@ -1,0 +1,107 @@
+@media  screen and (max-width: 1200px){
+    .container {
+        max-width: 100%;
+        padding: 0 3.5rem;
+    }
+}
+@media  screen and (max-width: 980px) {
+    .hero {
+        height: 45vh;
+        
+    }
+    .hero-text-area {
+        width: 100%;
+        text-align: center;
+    }
+    .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    
+    }
+    .about-photo {
+        width: 40%;
+        margin: auto;
+    }
+    .about-text-item {
+        width: 80%;
+        margin: auto;
+    }
+    .prosses-grid {
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+    .work-grid {
+     
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    html {
+        font-size: 55.6%;
+        
+    }
+    .ct-grid {
+    grid-template-columns: 1fr;
+    }
+    .menu-container {
+        height: 50vh;
+    }
+    .hb-menu li a{
+        margin: .5rem 0;
+    }
+    
+}
+@media  screen and (max-width: 760px){
+    html {
+        font-size: 50.6%;
+        
+    }
+}
+@media  screen and (max-width: 560px) {
+    .prosses-grid, .exp-grid, .work-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .work-grid-photo:nth-child(5) {
+        grid-column: 1/1;
+    }
+    .tm {
+        background:#eee;
+        }
+        .tm-grid-item {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+    .about-photo {
+        width: 60%;
+        margin: auto;
+    }
+    .hero-text-area h1 {
+        font-size: 5.5rem;
+    }
+    html {
+        font-size: 50.6%;
+        
+    }
+    
+}
+@media  screen and (max-width: 414px) {
+    .hero-text-area h1 {
+        font-size: 4rem;
+    }
+    html {
+        font-size: 50%;
+        
+    }
+}
+@media  screen and (max-width: 375px) {
+    .hero-text-area h1 {
+        font-size: 4.5rem;
+    }
+    html {
+        font-size: 50%;
+        
+    }
+    .menu-container {
+        height: 50vh;
+    }
+}
